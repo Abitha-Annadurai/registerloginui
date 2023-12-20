@@ -38,6 +38,7 @@ class _LoginPageState extends State<LoginPage> {
     double screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.pink,
         actions: [
           IconButton(onPressed: (){}, icon: Icon(Icons.verified_outlined, color: Colors.white,))
         ],
